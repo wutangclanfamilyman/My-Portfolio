@@ -43,6 +43,9 @@ $(document).ready(function() {
 	});
 	$("input, select, textarea").jqBootstrapValidation();
 	$(".top-menu ul a").mPageScroll2id();
+	$(".top-wrapper .header-btn a").mPageScroll2id();
+	$("#phone").mask("+38 (099) 999 99 99");
+
 });
 $(window).load(function() {
 

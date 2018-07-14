@@ -1,4 +1,4 @@
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 968px) {
   .s_about .section-content .photo h4 {
     font-size: 18px; }
   .s_about .section-content .photo img {
@@ -10,12 +10,12 @@
   .s_about .section-content .technologies h4 {
     font-size: 18px; }
 
-  .s_work .section-content .work-item h4 {
+  .s_work .section-content .work-item .row h4 {
     text-align: center;
-    font-size: 18px; }
-    .s_work .section-content .work-item h4 span {
+    font-size: 20px; }
+    .s_work .section-content .work-item .row h4 span {
       font-size: 22px; }
-  .s_work .section-content .work-item p {
+  .s_work .section-content .work-item .row p {
     font-size: 13px; }
 
   .s_portfolio .portfolio_item .port_item_cont h3 {
@@ -72,7 +72,10 @@
     .s_contacts .contact-form .main_form button {
       margin: 0 auto;
       text-align: center;
-      float: none; } }
+      float: none; }
+
+  .s_header .top-wrapper .header-btn .btn-modal {
+    margin-top: 20px; } }
 @media screen and (max-width: 360px) {
   .s_header .top-wrapper .header-text h1 {
     font-size: 28px;
